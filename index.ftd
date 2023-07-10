@@ -5,8 +5,11 @@ background.solid: #87CEEB
 align-content: center
 
 -- card:
+title: Blue rose
+description: Blue roses are often used to symbolize mystery or the unattainable, since they do not exist in nature because of genetic limitations.
 -- card:
-
+title: What is it's speciality?
+description: Blue roses symbolize secrecy, mystery, and uniqueness
 -- end:ftd.column
 
 -- component card:
@@ -23,17 +26,15 @@ spacing.fixed.px: 10
 
 -- ftd.column:
 
--- ftd.text: Blue Rose
+-- ftd.text: $card.title
 role: $inherited.types.heading-medium
 style: bold
 color: $inherited.colors.text-strong
 
--- ftd.text: 
+-- ftd.text: $card.description
 role: $inherited.types.copy-regular
 
-Blue roses are often used to symbolize mystery or 
-the unattainable, since they do not exist
- in nature because of genetic limitations.
+
 
 
 -- end: ftd.column
