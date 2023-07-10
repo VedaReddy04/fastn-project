@@ -1,40 +1,46 @@
--- ds.page: Welcome to doc-site
+-- ftd.column:
+width: fill-container
+height: fill-container 
+background.solid: #87CEEB
+align-content: center
+
+-- card:
+-- card:
+
+-- end:ftd.column
+
+-- component card:
+ caption title: Title
+ body description: body
+-- ftd.row:
+width.fixed.px: 750
+height.fixed.px: 350
+background.solid: #FFFFFF
+border-width.px: 3
+padding.px: 20
+border-radius.px: 20
+spacing.fixed.px: 10
+
+-- ftd.column:
+
+-- ftd.text: Blue Rose
+role: $inherited.types.heading-medium
+style: bold
+color: $inherited.colors.text-strong
+
+-- ftd.text: 
+role: $inherited.types.copy-regular
+
+Blue roses are often used to symbolize mystery or 
+the unattainable, since they do not exist
+ in nature because of genetic limitations.
 
 
-⚡️ `doc-site` will help you create a beautiful documentation site in no time.
+-- end: ftd.column
 
-It provides out-of-the-box documentation features that can be used to create any
-kind of site(personal website, blog, etc).
+-- ftd.image:
+src: https://cdn.pixabay.com/photo/2013/07/21/13/00/rose-165819_640.jpg
+height: fill-container
 
-[Click here](https://fastn-community.github.io/doc-site/) to read doc-site
-documentation.
-
--- ds.h3: 🚀 Fast Track 
-
-Create your first fastn [web-site](https://fastn.com/expander/hello-world/-/build/) 
-project in just 5 minutes!
-
--- ds.h3: 🌟 Whats next?
-
-Create your first page. 
-[Click here to know more](https://fastn-community.github.io/doc-site/components/page/).
-
--- ds.h3: 👀 Want to learn more?
-
-Feel free to check [our expander course](https://fastn.com/expander/) or jump
-into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
-
--- ds.h3: 🎯 Used by?
-
-Our all documentation sites uses this `doc-site` theme.
-
-- [fastn.com](https://fastn.com/home/)
-- [FifthTry.com](https://www.fifthtry.com/)
-
--- ds.h2: Learn fastn and become a pro?
-
-You are one click away, just check [our documentation](https://fastn.com/) and 
-dont forget to jump into our [FifthTry Discord server](https://discord.gg/bucrdvptYd).
-
--- end: ds.page
+-- end: ftd.row
+-- end: card
